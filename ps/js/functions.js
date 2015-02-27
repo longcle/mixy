@@ -55,7 +55,6 @@ jQuery(function($) {
 					errorPlacement: function(error, element) { 
 						if ( element.is(':radio') || element.is(':checkbox') ) {
 							error.insertBefore( element.next() );
-
 						} else { 
 							error.insertAfter( element );
 						}
@@ -104,7 +103,7 @@ jQuery(function($) {
 		$('form[name=mixy-form]').validate({
 			errorPlacement: function(error, element) { 
 				if ( element.is(':radio') || element.is(':checkbox') ) {
-					if (element.attr('name') === 'package') {
+					if (element.attr('name') === 'Gói dịch vụ') {
 						error.insertBefore(element);
 						error.css('top','-80px');
 					} else {
