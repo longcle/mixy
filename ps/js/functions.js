@@ -120,6 +120,10 @@ jQuery(function($) {
 				$('form[name=mixy-form]').submit();
 			}
 		});
+
+		$('button[name=back-to-info').click(function(){
+			history.go(-1);
+		});
     
     });
 /*===================================================================================*/
