@@ -116,6 +116,7 @@ jQuery(function($) {
 		});
 
 		alert('adasd');
+		$('a[name=submit-mixy-form').css('cursor','pointer');
 		$(document).on('click','a[name=submit-mixy-form',function(){
 			alert('adasd');
 			if ($('form[name=mixy-form]').valid()) {
