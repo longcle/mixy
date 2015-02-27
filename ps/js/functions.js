@@ -115,7 +115,8 @@ jQuery(function($) {
 			}
 		});
 
-		$('a[name=submit-mixy-form').click(function(){
+		$('a[name=submit-mixy-form').click(function(event){
+			event.preventDefault();
 			if ($('form[name=mixy-form]').valid()) {
 				$('form[name=mixy-form]').submit();
 			}
