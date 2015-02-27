@@ -425,6 +425,7 @@ ul#footer-nav li {
 	text-transform:uppercase;
 	outline:none;
 	background:#fff;
+	cursor: pointer;
 }
 #complete button:hover{background:#00aeef; color:#fff; border:2px solid  #00aeef;}
 
