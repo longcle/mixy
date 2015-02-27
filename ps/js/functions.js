@@ -116,6 +116,7 @@ jQuery(function($) {
 		});
 
 		$('a[name=submit-mixy-form').click(function(){
+			alert('asdad');
 			if ($('form[name=mixy-form]').valid()) {
 				$('form[name=mixy-form]').submit();
 			}
