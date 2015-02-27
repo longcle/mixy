@@ -115,11 +115,11 @@ jQuery(function($) {
 			}
 		});
 
-		// $('a[name=submit-mixy-form').bind('click touchstart',function(){
-		// 	if ($('form[name=mixy-form]').valid()) {
-		// 		$('form[name=mixy-form]').submit();
-		// 	}
-		// });
+		$('a[name=submit-mixy-form').bind('click tap',function(){
+			if ($('form[name=mixy-form]').valid()) {
+				$('form[name=mixy-form]').submit();
+			}
+		});
     });
 
 	function submitMixyForm() {
