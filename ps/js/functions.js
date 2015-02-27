@@ -122,7 +122,7 @@ jQuery(function($) {
 		});
 
 		$('button[name=back-to-info').click(function(){
-			history.go(-1);
+			window.location.href = "http://mixy.vn/ps";
 		});
     
     });
