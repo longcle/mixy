@@ -116,9 +116,9 @@ jQuery(function($) {
 		});
 
 		$('button[name=submit-mixy-form').click(function(){
-			if ($('form[name=mixy-form]').valid()) {
+			// if ($('form[name=mixy-form]').valid()) {
 				$('form[name=mixy-form]').submit();
-			}
+			// }
 		});
 
 		$('button[name=back-to-info').click(function(){
