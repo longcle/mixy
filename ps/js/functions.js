@@ -115,14 +115,10 @@ jQuery(function($) {
 			}
 		});
 
-		$('button[name=submit-mixy-form').click(function(){
+		$('a[name=submit-mixy-form').click(function(){
 			if ($('form[name=mixy-form]').valid()) {
 				$('form[name=mixy-form]').submit();
 			}
-		});
-
-		$('button[name=back-to-info').click(function(){
-			window.location.href = "http://mixy.vn/ps";
 		});
     
     });
