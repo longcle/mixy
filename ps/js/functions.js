@@ -115,10 +115,7 @@ jQuery(function($) {
 			}
 		});
 
-		alert('adasd');
-		$('a[name=submit-mixy-form').css('cursor','pointer');
-		$(document).on('click','a[name=submit-mixy-form',function(){
-			alert('adasd');
+		$('a[name=submit-mixy-form').bind('click touchstart',function(){
 			if ($('form[name=mixy-form]').valid()) {
 				$('form[name=mixy-form]').submit();
 			}
